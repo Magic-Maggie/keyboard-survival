@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard Survival</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="menu">
+        <h1 id="menuTitle">Keyboard Survival</h1>
+        <p id="menuSubtitle">Press the button to start the game.</p>
+        <div id="menuButtons">
+            <button id="startBtn">Start Game</button>
+            <button id="howToPlayBtn">How to Play</button>
+        </div>
+        <div id="instructions" hidden>
+            <h2>How to Play</h2>
+            <ul>
+                <li>Use A to move left and D to move right.</li>
+                <li>Avoid the red obstacles falling from the top.</li>
+                <li>Collect green A-items and orange D-items to restore health.</li>
+                <li>Each obstacle you dodge increases your score.</li>
+                <li>When a key breaks, you can no longer use it until you collect its item.</li>
+            </ul>
+            <button id="closeInstructionsBtn">Close</button>
+        </div>
+    </div>
+
+    <div id="keyboard"></div>
+
+    <div id="hud">
+        <div>Score: <span id="score">0</span></div>
+        <div>Time: <span id="time">0</span></div>
+        <div>Alive Keys: <span id="aliveKeys">0</span></div>
+        <div>Best: <span id="bestScore">0</span></div>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
