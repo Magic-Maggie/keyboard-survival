@@ -1,0 +1,3 @@
+Game concept: Use the key at least as possible to survive from falling obstacles as long as possible.
+Keyboard event used: keyup detects when a key is released and sets its state to false while keydown detects when a key is pressed and sets its state to true.
+Lesson learned: Making a game on browser could be kinda hard as I need to care about the game layout.
