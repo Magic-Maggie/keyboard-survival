@@ -1,0 +1,9 @@
+✅Game uses at least 3 different keyboard events(keydown, keyup, keypress, etc.)
+✅Game provides clear visual feedback on event keystroke
+✅Game includes scoring, levels, or another progression mechanic
+✅User interface has clear instructions and intuitive controls
+✅Code is well-commented and follows best practices
+✅Game has been tested and runs without errors in a browser
+✅Written reflection addresses the learning experience
+✅Youtube video demonstrates gameplay
+✅Github repository is publicly accessible
